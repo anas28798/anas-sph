@@ -1,0 +1,574 @@
+@font-face {
+    font-family: 'Nautica';
+    src: url(fonts/Nautica.ttf);
+}
+
+@font-face {
+    font-family: 'Mrs-Eaves';
+    src: url(fonts/Mrs-Eaves.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat.ttf);
+}
+
+@font-face {
+    font-family: "Georgia";
+    src: url(fonts/Georgia.ttf);
+}
+
+body {
+    --primary-color: #EBAB00;
+}
+
+
+p {
+    font-family: "Montserrat";
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: "Nautica";
+    font-size: 60px;
+    line-height: 75px;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: "Mrs-Eaves";
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+h4 {
+    font-family: "Georgia";
+    font-size: 23px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #895500;
+}
+
+h5 {
+    font-family: "Montserrat";
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+.pri-mary-btn {
+    font-family: "Montserrat";
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 500;
+    border-radius: 0px;
+    padding: 5px 35px 5px 35px;
+    margin-top: 10px;
+    float: right !important;
+}
+
+.row .col-1 img {
+    margin-top: 10px;
+}
+
+.nav-inner-sec img {
+    width: 69px;
+    margin-top: 14px;
+}
+
+.header-colam i {
+    margin-top: 17px;
+    font-size: 20px;
+}
+
+.header-colam .col {
+    margin: 0px !important;
+    padding: 0px;
+    text-align: center;
+}
+
+.header-nav a.nav-link:hover {
+    border-bottom: 5px solid var(--primary-color);
+    padding-bottom: 5px;
+}
+
+.header-nav a.nav-link {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    border-bottom: 5px solid #ebac0000;
+}
+
+.hide {
+    display: none;
+}
+
+.location-hover:hover+.hide {
+    display: block;
+}
+
+.location-m-row {
+    position: absolute;
+    top: 80px;
+    right: 30px;
+    width: 500px;
+    padding: 15px 5px 15px;
+    background: #fff;
+    border-radius: 3px !important;
+    box-shadow: 0 0 12px rgb(0 0 0 / 18%);
+}
+
+.locaion-clm1 h4 {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.locaion-clm1 p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.locaion-clm2 img {
+    width: 100%;
+}
+
+.location-cl-btn {
+    background-color: #fff;
+    border: 1px solid #0e0e0e52;
+    color: #000;
+    padding: 7px 50px;
+    border-radius: 0px;
+}
+
+.location-cl-btn:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.home-banner {
+    background-image: url(dark-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 200px 0px 100px 0px;
+}
+
+.home-banner .pri-mary-btn {
+    font-family: "Montserrat";
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 500;
+    border-radius: 0px;
+    padding: 5px 35px 5px 35px;
+    background-color: var(--primary-color);
+}
+
+.banner-culm img {
+    margin-top: 20px;
+}
+
+.banner-culm .pri-mary-btn {
+    font-family: "Montserrat";
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 500;
+    margin: 20px;
+    margin-bottom: 20px;
+    background-color: var(--primary-color);
+    border: var(--primary-color);
+    padding: 10px 40px 10px 40px;
+    float: none !important;
+}
+
+.banner-culm p {
+    margin-bottom: 100px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.second-section {
+    padding: 100px 0px 100px 0px;
+}
+
+.main-third-colam img {
+    margin: 0 auto !important;
+    display: block;
+}
+
+.main-third-colam {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 85px 40px;
+}
+
+.btn-mtc {
+    font-family: "Montserrat";
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 500;
+    border: 2px solid #fff;
+    border-radius: 0px;
+    padding: 9px 50px 9px 50px;
+    color: #fff;
+    margin: 0 auto;
+    display: block;
+}
+
+.btn-mtc:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.third-colam-bg-img {
+    background-image: url('Sidewalk.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+
+.fourth-colam-bg-img {
+    background-image: url('DoorMan.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+
+
+.main-fourth-colam {
+    background-color: #9CCFCC;
+    color: #fff;
+    padding: 85px 40px;
+}
+
+.main-fourth-colam img {
+    margin: 0 auto !important;
+    display: block;
+}
+
+.slides-heading {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.home-carosel-desh button {
+    background-color: #003A5C !important;
+    width: 40px !important;
+    height: 5px !important;
+}
+
+.home-carosel-desh {
+    bottom: -50px;
+}
+
+.yt-section {
+    padding: 0px;
+}
+
+.yt-section iframe {
+    width: 1330px;
+    height: 779px;
+}
+
+.yt-section h2 {
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+.wedding-section {
+    margin-top: 100px;
+}
+
+.wedding-colam-bg-img {
+    background-image: url('Sidewalk.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+
+.wedding-colam {
+    background-color: #9CCFCC;
+    color: #fff;
+    padding: 85px 40px;
+}
+
+.wedding-colam img {
+    margin: 0 auto !important;
+    display: block;
+}
+
+.meeting-colam {
+    background-color: #6E625A;
+    color: #fff;
+    padding: 85px 40px;
+}
+
+.meeting-row-section {
+    margin-top: 20px;
+}
+
+.meeting-colam img {
+    margin: 0 auto !important;
+    display: block;
+}
+
+.meeting-section {
+    background-image: url('Boardroom.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+
+.three-colam-section {
+    margin-top: 20px;
+}
+
+.tc-colam1 {
+    background-image: url('bg01.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 100px 40px;
+}
+
+.tc-colam1 img {
+    margin: 0 auto !important;
+    display: block;
+}
+
+.tc-colam2 {
+    background-color: #9CCFCC;
+    color: #fff;
+    padding: 100px 40px;
+}
+
+.tc-colam2 img {
+    margin: 0 auto !important;
+    display: block;
+}
+
+.tc-colam3 {
+    background-image: url('130426-SPH.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-descrpiton {
+    margin-bottom: 100px;
+    margin-top: 70px;
+}
+
+.content-descrpiton h2 {
+    margin-top: 70px;
+}
+
+.content-descrpiton h3,
+p {
+    margin-bottom: 30px;
+}
+
+.content-descrpiton h2 a {
+    text-decoration: none;
+    color: #6F7273;
+}
+
+.content-descrpiton h2 a:hover {
+    text-decoration: underline;
+}
+
+.main-footer {
+    background-color: #E3DFDA;
+    color: #6E625A;
+    padding: 40px 150px 40px 150px;
+}
+
+.btn-footer {
+    font-family: "Montserrat";
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 500;
+    background-color: var(--primary-color);
+    padding: 10px 50px 10px 50px;
+    border-radius: 0px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.btn-footer:hover {
+    background-color: #6E625A;
+    color: #fff;
+}
+
+.main-footer a {
+    text-decoration: none;
+    color: #6F7273;
+}
+
+.main-footer a:hover {
+    text-decoration: underline;
+}
+
+.main-footer ul {
+    padding: 0px;
+}
+
+.main-footer ul li {
+    list-style: none;
+}
+
+.copyright-section {
+    border-top: 1px solid #bababa;
+}
+
+.footer-images {
+    padding-top: 30px;
+}
+
+.footer-images i {
+    color: var(--primary-color);
+    font-size: 40px;
+}
+
+.footer-images p {
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 1366px) {
+    .main-footer .btn-footer {
+        padding: 10px 10px 10px 10px;
+    }
+
+    .header-nav .pri-mary-btn {
+        padding: 5px 15px 5px 15px;
+    }
+
+    .header-nav a.nav-link {
+        font-size: 9.9px;
+        line-height: 10px;
+    }
+
+    .nav-inner-sec img {
+        width: 60px;
+    }
+
+    .header-colam i {
+        font-size: 18px;
+    }
+
+    .yt-section iframe {
+        display: block;
+        margin: 0 auto;
+        width: 1140px;
+        height: 620px;
+    }
+
+    .main-third-colam,
+    .main-fourth-colam,
+    .wedding-colam,
+    .meeting-colam {
+        padding: 58px 40px;
+    }
+
+    .main-footer {
+        padding: 70px 50px 70px 50px;
+    }
+
+}
+
+@media only screen and (max-width: 1200px){
+    .yt-section iframe {
+        width: 960px;
+        height: 620px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .banner-culm p {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+
+    .home-banner {
+        padding: 50px 0px 50px 0px;
+    }
+
+    .header-colam {
+        display: none;
+    }
+
+    .row .col-1 img {
+        display: none;
+    }
+
+    .yt-section iframe {
+        width: 720px !important;
+        height: 430px !important;
+    }
+
+    .main-third-colam,
+    .main-fourth-colam,
+    .wedding-colam,
+    .meeting-colam {
+        padding: 73px 20px;
+    }
+
+    .tc-colam1,
+    .tc-colam2,
+    .tc-colam3 {
+        padding: 40px 20px;
+    }
+
+    .btn-mtc {
+        padding: 9px 20px 9px 20px;
+    }
+
+
+}
+
+@media only screen and (max-width: 767px) {
+    .header-colam {
+        display: none;
+    }
+
+    .row .col-1 img {
+        display: none;
+    }
+
+    .yt-section iframe {
+        width: 480px !important;
+        height: 300px !important;
+    }
+
+    .home-banner {
+        padding: 50px 0px 50px 0px;
+    }
+
+    .banner-culm p {
+        margin-bottom: 10px;
+        padding-bottom: 30px;
+    }
+
+    .second-section {
+        padding: 50px 0px 50px 0px;
+    }
+
+    .main-footer {
+        padding: 50px 50px 50px 50px;
+    }
+
+    .btn-footer {
+        margin-bottom: 50px;
+    }
+}
